@@ -1,73 +1,76 @@
-# Welcome to your Lovable project
+💼 The Personal Portal
+The Personal Portal is a React-based web app built for a hackathon that leverages AI to analyze resumes and generate tailored employee summaries. It visualizes performance data in an intuitive card-swiping interface, complete with progress bars, summaries, and a PDF export feature.
 
-## Project info
+🧠 Powered by OpenAI
+This project integrates OpenAI's API to parse resume data and automatically generate:
 
-**URL**: https://lovable.dev/projects/07ac1bda-ed36-4a92-860b-346483fb113e
+Key skills and roles
 
-## How can I edit this code?
+Personalized summaries
 
-There are several ways of editing your application.
+Overall performance percentages
 
-**Use Lovable**
+🔍 Features
+📄 Resume Analysis – Upload a resume and let AI extract skills, strengths, and role insights.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/07ac1bda-ed36-4a92-860b-346483fb113e) and start prompting.
+📊 Employee Summary Cards – View each employee’s key areas and performance in swipeable cards.
 
-Changes made via Lovable will be committed automatically to this repo.
+📈 AI-Generated Summary – Get a quick, human-readable summary generated via OpenAI.
 
-**Use your preferred IDE**
+📤 PDF Export – Export the employee analysis as a shareable PDF (via Google Drive).
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🌐 Dynamic JSON Loading – Fetches employee data from a JSON file (employeeData.json).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+📸 UI Preview
+(Add screenshots here if you have any!)
 
-Follow these steps:
+🛠️ Built With
+React
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Tailwind CSS
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Lucide Icons
 
-# Step 3: Install the necessary dependencies.
-npm i
+jsPDF
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+OpenAI API
+
+📁 File Structure Highlights
+php
+Copy
+Edit
+├── components/
+│   ├── ResultCard.tsx     # Displays each employee’s data
+│   └── ChevronLogo.tsx    # Branding logo
+├── public/
+│   └── employeeData.json  # Mocked AI resume analysis results
+├── pages/
+│   └── Results.tsx        # Main page with navigation and export
+🚀 Getting Started
+Clone the repo:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/personal-portal.git
+cd personal-portal
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Run the development server:
+
+bash
+Copy
+Edit
 npm run dev
-```
+Add your employeeData.json file in /public
 
-**Edit a file directly in GitHub**
+🧠 Inspiration
+This project was built during a hackathon challenge focused on AI in the workplace. The goal: make resume reviews easier for managers by letting AI do the heavy lifting and present it in a visual, interactive format.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+📄 License
+MIT – feel free to fork and build on this!
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/07ac1bda-ed36-4a92-860b-346483fb113e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
