@@ -23,9 +23,7 @@ const Login: React.FC = () => {
             <div className="flex justify-center mb-6">
               <ChevronLogo />
             </div>
-            <h1 className="text-lg font-semibold text-center mb-4 text-chevron-blue">Welcome to Chevron</h1>
-            <p className="text-sm text-gray-500 text-center mb-8">Employee Analysis Portal</p>
-            
+            <h1 className="text-lg font-semibold text-center mb-4 text-chevron-blue">Welcome to Chevron</h1>            
             <form onSubmit={handleLogin}>
               <div className="mb-4">
                 <input
@@ -57,7 +55,7 @@ const Login: React.FC = () => {
         
         {/* Right side with image */}
         <div className="w-1/2">
-          <div className="h-full chevron-gradient flex items-center justify-center p-12">
+          {/* <div className="h-full chevron-gradient flex items-center justify-center p-12">
             <div className="text-white max-w-lg">
               <h2 className="text-3xl font-bold mb-4">Employee Analysis System</h2>
               <p className="mb-6">
@@ -69,7 +67,12 @@ const Login: React.FC = () => {
                 <div className="w-2 h-2 bg-white/50 rounded-full"></div>
               </div>
             </div>
-          </div>
+          </div> */}
+           <img 
+           src = "chevronLoginPic.jpg"
+           alt="Chevron Login"
+           className="w-full h-screen object-cover"
+           />
         </div>
       </div>
     </div>

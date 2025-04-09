@@ -6,10 +6,16 @@ import FileUploader from '@/components/FileUploader';
 const Upload: React.FC = () => {
   const navigate = useNavigate();
 
-  const handleFileUpload = (file: File) => {
-    // In a real app, you would process the CSV file here
-    // For demo, we'll just navigate to the results page
-    navigate('/results');
+  // const handleFileUpload = (file: File) => {
+  //   // In a real app, you would process the CSV file here
+  //   // For demo, we'll just navigate to the results page
+     navigate('/results');
+  // };
+
+  const handleFileUpload = (summary: string) => {
+    console.log('AI Summary:', summary);
+    // You could store this in context or navigate to /results and show it
+    navigate('/results', { state: { summary } });
   };
 
   return (

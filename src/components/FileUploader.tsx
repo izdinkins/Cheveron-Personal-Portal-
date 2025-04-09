@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { UploadIcon } from 'lucide-react';
 import ChevronLogo from './ChevronLogo';
@@ -62,14 +61,14 @@ const FileUploader: React.FC<FileUploaderProps> = ({ onFileUpload }) => {
           type="file" 
           id="file-input" 
           className="hidden" 
-          accept=".csv"
+          accept=".pdf"
           onChange={handleFileChange}
         />
         <div className="flex justify-center mb-3">
           <UploadIcon size={40} className="text-gray-400" />
         </div>
         <p className="text-sm text-gray-500 mb-1">
-          {file ? file.name : 'Drag & Drop your CSV file here'}
+          {file ? file.name : 'Drag & Drop your PDF file here'}
         </p>
         <p className="text-xs text-gray-400">
           {!file && 'or click to browse'}

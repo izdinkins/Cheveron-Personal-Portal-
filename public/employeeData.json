@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Kameron Boggs",
+    "percentage": 90,
+    "color": "#4CAF50",
+    "summary": "Kameron Boggs is an engineer with expertise in Lean Six Sigma, Finite Element Analysis, and Root Cause Analysis. He is a strong leader with excellent communication skills.",
+    "items": [
+      "Root Cause Analysis",
+      "Lean Six Sigma",
+      "Statistical Process Control",
+      "Problem Solving",
+      "Teamwork"
+    ], 
+    "roles": "Project Controls Engineer"
+  },
+  {
+    "name": "Kameron Boggs",
+    "percentage": 85,
+    "color": "#4CAF50",
+    "summary": "Kameron Boggs is an engineer with expertise in Lean Six Sigma, Finite Element Analysis, and Root Cause Analysis. He is a strong leader with excellent communication skills.",
+    "items": [
+      "Employee Engagement",
+      "Labor Law Compliance",
+      "Succession Planning",
+      "Adaptability",
+      "Leadership"
+    ],
+    "roles": "3D Digitial Engineer"
+
+  },
+  {
+    "name": "Kameron Boggs",
+    "percentage": 73,
+    "color": "#FFEB3B",
+    "summary": "Kameron Boggs is an engineer with expertise in Lean Six Sigma, Finite Element Analysis, and Root Cause Analysis. He is a strong leader with excellent communication skills.",
+    "items": [
+      "Firewall Configuration",
+      "SOC Operations",
+      "SIEM Tools",
+      "Leadership",
+      "Initiative"
+    ],
+    "roles": "Electrical Project Lead"
+  },
+  {
+    "name": "Kameron Boggs",
+    "percentage": 65,
+    "color": "#FFEB3B",
+    "summary": "Kameron Boggs is an engineer with expertise in Lean Six Sigma, Finite Element Analysis, and Root Cause Analysis. He is a strong leader with excellent communication skills.",
+    "items": [
+      "Statistical Process Control",
+      "MATLAB",
+      "Root Cause Analysis",
+      "Problem Solving",
+      "Empathy"
+    ], 
+    "roles": "Operations Engineer"
+  }
+]
